@@ -1,0 +1,51 @@
+.tablerow {
+    padding: 10px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    margin: 0px 500px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.maindiv {
+    height: 150vh;
+    width: 100%;
+    background-color: brown;
+    text-align: center;
+    display: flex;
+    /* justify-content: space-around; */
+    direction: column;
+    flex-direction: column;
+}
+h1 {
+    margin-top: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+input {
+    margin: 20px 300px;
+    padding: 10px;
+    width: 20vw;
+    border-radius: 10px;
+}
+button {
+    margin: 0px 500px;
+    padding: 10px;
+    border-radius: 10px;
+    color: darkblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: none;
+}
+button:hover {
+    background-color: wheat;
+}
+.subdiv {
+    position: absolute;
+    top: 200px;
+}
+#secdiv {
+    margin: 100px 0px;
+}
